@@ -10,9 +10,5 @@ namespace Testgit
     {
 
         public int Id { get; set; }
-
-        public String Name { get; set; }
-
-        public List<Customer> Customers { get; set; }
     }
 }
