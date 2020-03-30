@@ -12,5 +12,9 @@ namespace Testgit
         public int Id { get; set; }
         public int a7a { get; set; }
 
+        public void test()
+        {
+            Console.WriteLine("test");
+        }
     }
 }
