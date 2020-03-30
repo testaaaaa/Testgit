@@ -10,7 +10,12 @@ namespace Testgit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("test");
+            var newClass = new NewClass
+            {
+                Name = "Class", Id = 1,
+            };
+            Console.WriteLine($"{newClass.Name} {newClass.Id}");
+
         }
     }
 }
