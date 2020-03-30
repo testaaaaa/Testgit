@@ -14,7 +14,5 @@ namespace Testgit
         public String Name { get; set; }
 
         public List<Customer> Customers { get; set; }
-
-        public int A7a { get; set; }
     }
 }
